@@ -16566,6 +16566,10 @@ footer .pull-center {
   overflow: hidden;
 }
 
+.card-login {
+  text-align: center;
+}
+
 .card-login .card-header {
   margin-left: 20px;
   margin-right: 20px;
@@ -17346,6 +17350,7 @@ footer .pull-center {
 
 .section {
   padding: 70px 0;
+  text-align: center;
 }
 
 .profile-page .page-header {
