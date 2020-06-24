@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/user/public_html/
+    - export DEPLOYPATH=/home2/vinbi605/public_html/
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R cn $DEPLOYPATH
     - /bin/cp about-birdnest.html
