@@ -2,15 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home2/vinbi605/public_html/
-    - /bin/cp -R assets $DEPLOYPATH
-    - /bin/cp -R cn $DEPLOYPATH
-    - /bin/cp about-birdnest.html
-    - /bin/cp about-vinbird.html
-    - /bin/cp bower.json
-    - /bin/cp product-services.html $DEPLOYPATH
-    - /bin/cp faq.html $DEPLOYPATH
-    - /bin/cp gallery.html $DEPLOYPATH
-    - /bin/cp gulpfile.js $DEPLOYPATH
-    - /bin/cp how-its-made.html $DEPLOYPATH
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp package.json $DEPLOYPATH
+    - /bin/cp -r * $DEPLOYPATH
