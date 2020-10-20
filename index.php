@@ -164,7 +164,7 @@
             <div id="buttons" class="cd-section">
               <div class="row">
                 <div class="col-md-8 mr-auto">
-                    ESTA continues to strive because of our natural and non-genetically modified processes. We does not use any food additive and our nests are very healthy for long-time consumption.
+                    Vinbirdnest continues to strive because of our natural and non-genetically modified processes. We does not use any food additive and our nests are very healthy for long-time consumption.
                 </div>
               </div>
             </div>
