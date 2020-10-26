@@ -13,7 +13,7 @@
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
 
 
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -38,7 +38,7 @@
   <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
     <div class="container">
       <div class="navbar-translate">
-        <a class="navbar-brand" href="./index.html">
+        <a class="navbar-brand" href="./index">
           VinBirdnest </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="sr-only">Toggle navigation</span>
@@ -54,27 +54,27 @@
               <i class="material-icons">apps</i> About VinBirdnest
             </a>
             <div class="dropdown-menu dropdown-with-icons">
-              <a href="./about-vinbird.html" class="dropdown-item">
+              <a href="./about-vinbird" class="dropdown-item">
                 <i class="material-icons">layers</i> About VinBirdnest
               </a>
-              <a href="./about-birdnest.html" class="dropdown-item">
+              <a href="./about-birdnest" class="dropdown-item">
                 <i class="material-icons">layers</i> About bird's nest
               </a>
-              <a href="./product-services.html" class="dropdown-item">
+              <a href="./product-services" class="dropdown-item">
                 <i class="material-icons">content_paste</i> Products & Services
               </a>
-              <a href="how-its-made.html" class="dropdown-item">
+              <a href="how-its-made" class="dropdown-item">
                 <i class="material-icons">content_paste</i> How It's made
               </a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./faq.html" onclick="scrollToDownload()">
+            <a class="nav-link" href="./faq" onclick="scrollToDownload()">
               <i class="material-icons">info</i> FAQ
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./gallery.html" onclick="scrollToDownload()">
+            <a class="nav-link" href="./gallery" onclick="scrollToDownload()">
               <i class="material-icons">aspect_ratio</i> Gallery
             </a>
           </li>
@@ -209,67 +209,7 @@
     </div>
 </div>
 
-  <!-- Footer -->
-  <footer class="footer" data-background-color="black">
-    <div class="container">
-      <nav class="float-left">
-        <ul>
-          <li>
-            <a href="/about-vinbird.html">
-              About Us
-            </a>
-          </li>
-          <li>
-            <a style="text-align:left;">
-              <span class="fa fa-map-pin"></span> No. 15 Ly Nhon Street, An Thoi Dong Commune, Can Gio District, Hochiminh City
-              <br>
-             <span class="fa fa-envelop-open"></span> ISO 22000, HACCP <span style="text-transform: lowercase;"> <br>&nbsp;vinbirdnest@gmail.com</span>
-              <br>
-              <span class="fa fa-mobilephone"></span> 0919 960 738
-              <br>
-              <span class="fa fa-mobilephone"></span> 0888 826 889
-            </a>
-          </li>  
-        </ul>
-      </nav>
-      <div class="copyright float-right">
-        &copy;
-        2008 VinBirdnest
-      </div>
-    </div>
-  </footer>
-  <!--   Core JS Files   -->
-  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
-  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
-  <script src="./assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
-  <script src="./assets/js/plugins/moment.min.js"></script>
-  <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
-  <script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
-  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-  <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
-  <!--  Google Maps Plugin    -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-  <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
-  <script src="./assets/js/material-kit.js?v=2.0.6" type="text/javascript"></script>
-  <script>
-    $(document).ready(function() {
-      //init DateTimePickers
-      materialKit.initFormExtendedDatetimepickers();
-
-      // Sliders Init
-      materialKit.initSliders();
-    });
-
-
-    function scrollToDownload() {
-      if ($('.section-download').length != 0) {
-        $("html, body").animate({
-          scrollTop: $('.section-download').offset().top
-        }, 1000);
-      }
-    }
-
-  </script>
+  <?php require 'footer.php'; ?>
 </body>
 
 </html>
