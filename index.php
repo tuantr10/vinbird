@@ -115,7 +115,6 @@
           <div class="brand">
             <h1>VinBirdnest</h1>
             <h3>Live the nature</h3>
-            <p>Applied Language: <?php echo $i18n->getAppliedLang(); ?> </p>
           </div>
         </div>
       </div>
