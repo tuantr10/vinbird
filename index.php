@@ -12,6 +12,11 @@
 
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
 
+<?php
+  require_once 'i18n.class.php';
+  $i18n = new i18n('lang/lang_{LANGUAGE}.ini', 'langcache/', 'en');
+  $i18n->init();
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -51,17 +56,17 @@
         <ul class="navbar-nav ml-auto">
           <li class="dropdown nav-item">
             <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-              <i class="material-icons">apps</i> About VinBirdnest
+              <i class="material-icons">apps</i> <?php echo L::about_vinbirdnest; ?>
             </a>
             <div class="dropdown-menu dropdown-with-icons">
               <a href="./about-vinbird" class="dropdown-item">
-                <i class="material-icons">layers</i> About VinBirdnest
+                <i class="material-icons">layers</i> <?php echo L::about_vinbirdnest; ?>
               </a>
               <a href="./about-birdnest" class="dropdown-item">
                 <i class="material-icons">layers</i> About bird's nest
               </a>
               <a href="./product-services" class="dropdown-item">
-                <i class="material-icons">content_paste</i> Products & Services
+                <i class="material-icons">content_paste</i> <?php echo L::products_and_services; ?>
               </a>
               <a href="how-its-made" class="dropdown-item">
                 <i class="material-icons">content_paste</i> How It's made
@@ -110,6 +115,7 @@
           <div class="brand">
             <h1>VinBirdnest</h1>
             <h3>Live the nature</h3>
+            <p>Applied Language: <?php echo $i18n->getAppliedLang(); ?> </p>
           </div>
         </div>
       </div>
