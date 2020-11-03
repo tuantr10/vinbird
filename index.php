@@ -63,13 +63,13 @@
                 <i class="material-icons">layers</i> <?php echo L::about_vinbirdnest; ?>
               </a>
               <a href="./about-birdnest" class="dropdown-item">
-                <i class="material-icons">layers</i> About bird's nest
+                <i class="material-icons">layers</i> <?php echo L::about_birdnest; ?>
               </a>
               <a href="./product-services" class="dropdown-item">
                 <i class="material-icons">content_paste</i> <?php echo L::products_and_services; ?>
               </a>
               <a href="how-its-made" class="dropdown-item">
-                <i class="material-icons">content_paste</i> How It's made
+                <i class="material-icons">content_paste</i> <?php echo L::how_its_made; ?>
               </a>
             </div>
           </li>
@@ -80,7 +80,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./gallery" onclick="scrollToDownload()">
-              <i class="material-icons">aspect_ratio</i> Gallery
+              <i class="material-icons">aspect_ratio</i> <?php echo L::gallery; ?>
             </a>
           </li>
 
@@ -114,7 +114,7 @@
         <div class="col-md-8 ml-auto mr-auto">
           <div class="brand">
             <h1>VinBirdnest</h1>
-            <h3>Live the nature</h3>
+            <h3><?php echo L::live_the_nature; ?></h3>
           </div>
         </div>
       </div>
@@ -124,13 +124,13 @@
     <div class="section section-basic">
       <div class="container">
         <div class="title">
-          <h2>We believe nature has been providing us with many benefits.</h2>
+          <h2><?php echo L::homepage_title_1; ?></h2>
         </div>
         <!--  buttons -->
         <div id="buttons" class="cd-section">
           <div class="row">
               <div class="col-md-8 ml-auto mr-auto">
-                In VinBirdnest, we deliver edible bird’s nest by keeping true to its natural way. Thus, we want people to enjoy its natural benefit through our high quality products.
+              <?php echo L::homepage_subtitle_1; ?>
               </div>
           </div>
         </div>
@@ -141,17 +141,17 @@
       <div class="section section-basic">
         <div class="container">
             <div class="title">
-              <h2>Customizable Products To Your Own Needs</h2>
+              <h2><?php echo L::homepage_title_2; ?></h2>
             </div>
               <!--  buttons -->
             <div id="buttons" class="cd-section">
               <div class="row">
                 <div class="col-md-8 mr-auto">
-                    Waste no more effort with products that can be specifically customized to your unique needs in food & beverages, cosmetics and nutraceutical industry.
+                <?php echo L::homepage_subtitle_2; ?>
                 </div>
               </div>
               <div class="space-50"></div>
-              <a href="./product-services"><button class="btn btn-warning btn-lg">Our products and services</button></a>
+              <a href="./product-services"><button class="btn btn-warning btn-lg"><?php echo L::homepage_button_2; ?></button></a>
             </div>
           </div>
         </div>
@@ -163,13 +163,13 @@
         <div class="section section-basic">
           <div class="container">
             <div class="title">
-              <h2>All Natural Products, No Food Additive & Non-GMO</h2>
+              <h2><?php echo L::homepage_title_3; ?></h2>
             </div>
 
             <div id="buttons" class="cd-section">
               <div class="row">
                 <div class="col-md-8 mr-auto">
-                    Vinbirdnest continues to strive because of our natural and non-genetically modified processes. We does not use any food additive and our nests are very healthy for long-time consumption.
+                  <?php echo L::homepage_subtitle_3; ?>
                 </div>
               </div>
             </div>
@@ -183,18 +183,18 @@
         <div class="section section-basic">
             <div class="container">
               <div class="title">
-                <h2>Clean & Hygienic Manufacturing Process</h2>
+                <h2><?php echo L::homepage_title_4; ?></h2>
               </div>
   
               <div id="buttons" class="cd-section">
                 <div class="row">
                   <div class="col-md-8 mr-auto">
-                      We are committed to implement natural and hygienic manufacturing stages.
+                    <?php echo L::homepage_subtitle_4; ?>
                   </div>
                 </div>
               </div>
               <div class="space-50"></div>
-              <a href="/how-its-made"><button class="btn btn-warning btn-lg">See how we make it</button></a>
+              <a href="/how-its-made"><button class="btn btn-warning btn-lg"><?php echo L::homepage_button_4; ?></button></a>
             </div>
           </div>
           <!-- end 6th -->
@@ -209,13 +209,13 @@
                     <div class="col-md-3 ml-auto mr-auto">
                       <div class="card-login">
                           <div class="card-header card-header-primary text-center">
-                            <h4 class="card-title">No Need to Worry about Legality</h4>
+                            <h4 class="card-title"><?php echo L::homepage_card_title_1; ?></h4>
                           </div>
                           <img class="" src="./assets/icon/certifed.png">
                           <div class="space-50"></div>
                           <div class="card-body container">
                             <!-- todo: change content-->
-                            <div class="description text-center">Our products are 100% legal and certified.
+                            <div class="description text-center"><?php echo L::homepage_card_description_1; ?>
                             </div>
                           </div>
                           <div class="space-50"></div>
@@ -225,11 +225,11 @@
                     <div class="col-md-3 ml-auto mr-auto">
                         <div class="card-login">
                             <div class="card-header card-header-primary text-center">
-                              <h4 class="card-title">We Only Deliver You High-Quality Products</h4>
+                              <h4 class="card-title"><?php echo L::homepage_card_title_2; ?></h4>
                             </div>
                             <img class="" src="./assets/icon/quality.png">
                             <div class="space-50"></div>
-                            <p class="description text-center">Be rest assured about the quality of product you order, it has passed our quality control procedure.
+                            <p class="description text-center"><?php echo L::homepage_card_description_2; ?>
                             </p>
                             <div class="space-50"></div>
                         </div>
@@ -238,11 +238,11 @@
                       <div class="col-md-3 ml-auto mr-auto">
                           <div class="card-login">
                               <div class="card-header card-header-primary text-center">
-                                <h4 class="card-title">Products Can Be Customized</h4>
+                                <h4 class="card-title"><?php echo L::homepage_card_title_3; ?></h4>
                               </div>
                               <img class="" src="./assets/icon/customized.png">
                               <div class="space-50"></div>
-                              <p class="description text-center">Waste no more effort as our products can be specifically customized to your unique needs.
+                              <p class="description text-center"><?php echo L::homepage_card_description_3; ?>
                               </p>
                               <div class="space-50"></div>
                           </div>
@@ -251,11 +251,11 @@
                         <div class="col-md-3 ml-auto mr-auto">
                             <div class="card-login">
                                 <div class="card-header card-header-primary text-center">
-                                  <h4 class="card-title">Focus on Customer Needs </h4>
+                                  <h4 class="card-title"><?php echo L::homepage_card_title_4; ?></h4>
                                 </div>
                                 <img class="" src="./assets/icon/customer.png">
                                 <div class="space-50"></div>
-                                <p class="description text-center">We focus our capabilities towards satisfying our valuable customer by integrating downstream and upstream in the value chain.
+                                <p class="description text-center"><?php echo L::homepage_card_description_4; ?>
                                 </p>
                                 <div class="space-50"></div>
                             </div>
