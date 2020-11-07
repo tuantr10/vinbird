@@ -84,11 +84,11 @@
             </a>
           </li>
 
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="./cn/index" onclick="scrollToDownload()">
-              <i class="material-icons">translate</i> 中文
+          <li class="nav-item">
+            <a class="nav-link" href="./?lang=vi" onclick="scrollToDownload()">
+              <i class="material-icons">translate</i> Tiếng Việt
             </a>
-          </li> -->
+          </li>
           <li class="nav-item">
             <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="mailto:vinbirdnest@gmail.com "target="_blank" data-original-title="Email us">
               <i class="fa fa-envelope"></i>
@@ -146,7 +146,7 @@
               <!--  buttons -->
             <div id="buttons" class="cd-section">
               <div class="row">
-                <div class="col-md-8 mr-auto">
+                <div class="col-md-8 ml-auto mr-auto">
                 <?php echo L::homepage_subtitle_2; ?>
                 </div>
               </div>
@@ -168,7 +168,7 @@
 
             <div id="buttons" class="cd-section">
               <div class="row">
-                <div class="col-md-8 mr-auto">
+                <div class="col-md-8 ml-auto mr-auto">
                   <?php echo L::homepage_subtitle_3; ?>
                 </div>
               </div>
@@ -188,7 +188,7 @@
   
               <div id="buttons" class="cd-section">
                 <div class="row">
-                  <div class="col-md-8 mr-auto">
+                  <div class="col-md-8 ml-auto mr-auto">
                     <?php echo L::homepage_subtitle_4; ?>
                   </div>
                 </div>
