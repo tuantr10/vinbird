@@ -11,7 +11,11 @@
  =========================================================
 
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
-
+ <?php
+  require_once 'i18n.class.php';
+  $i18n = new i18n('lang/lang_{LANGUAGE}.ini', 'langcache/', 'en');
+  $i18n->init();
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -79,11 +83,11 @@
             </a>
           </li>
 
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
-              <i class="material-icons">translate</i> 中文
+          <li class="nav-item">
+            <a class="nav-link" href="./?lang=vi" onclick="scrollToDownload()">
+              <i class="material-icons">translate</i> Tiếng Việt
             </a>
-          </li> -->
+          </li>
           <li class="nav-item">
             <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="mailto:vinbirdnest@gmail.com "target="_blank" data-original-title="Email us">
               <i class="fa fa-envelope"></i>
@@ -108,8 +112,8 @@
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto">
           <div class="brand">
-            <h1>About VinBirdnest</h1>
-            <h3>Live the nature</h3>
+            <h1><?php echo L::about_vinbirdnest; ?></h1>
+            <h3><?php echo L::live_the_nature; ?></h3>
           </div>
         </div>
       </div>
@@ -119,27 +123,16 @@
     <div class="section section-basic">
       <div class="container">
         <div class="title">
-          <h1>About VinBirdnest </h1>
+          <h1><?php echo L::about_vinbirdnest; ?></h1>
         </div>
         <!--  buttons -->
         <div id="buttons" class="cd-section">
           <div class="row">
               <div class="col-md-8 ml-auto mr-auto">
-                    <p>
-                    VinBirdnest is one of the companies belongs to our family farm with 5 birdhouses built from 2009. All our bird houses located in a green
-island named Can gio – the coastal area of 72,000 hectares with an abundant food source for birds.
-                    </p>
-                    <p>
-                      Our company provides one-stop service: from building bird houses, nest harvesting till collection, processing to packaging and selling.
-                    </p>
-                    <p>
-                        We have several agents to sell our bird’s nest under strict supervise to ensure that our products are quality guaranteed when reach out customer hands with great value.
-                    </p>
-                    <p>
-                        Our company policy is to produce the purest bird’s nest that is free from chemical, bleaching, additives and preservatives. 100% Natural with Quality Guaranteed!
-                    </p>
-
-
+                <p><?php echo L::aboutvinbird_intro_1; ?></p>
+                <p><?php echo L::aboutvinbird_intro_2; ?></p>
+                <p><?php echo L::aboutvinbird_intro_3; ?></p>
+                <p><?php echo L::aboutvinbird_intro_4; ?></p>
               </div>
           </div>
         </div>
@@ -150,7 +143,7 @@ island named Can gio – the coastal area of 72,000 hectares with an abundant fo
             <div class="row">
                 <div class="col-md-8 ml-auto mr-auto">
                     <div class="brand">
-                        <h1 class="text-center">Vision & Missions</h1>
+                        <h1 class="text-center"><?php echo L::aboutvinbird_title_1; ?></h1>
                     </div>
                 </div>
             </div>
@@ -160,14 +153,14 @@ island named Can gio – the coastal area of 72,000 hectares with an abundant fo
       <div class="section section-basic">
         <div class="container">
           <div class="title">
-            <h4>THE VISION</h4>
-            <h2>To unlock the potential of bird’s nest to improve the quality of life.</h2>
+            <h4><?php echo L::aboutvinbird_title_1_h4; ?></h4>
+            <h2><?php echo L::aboutvinbird_title_1_h2; ?></h2>
           </div>
           <!--  buttons -->
           <div id="buttons" class="cd-section">
             <div class="row">
               <div class="col-md-8 ml-auto mr-auto">
-                    We believe that edible bird’s nest not only have the economic value, but also the nutritional importance to improve human health and well-being. We are committed to bring the benefits of edible bird’s nest in each of our product line and services.
+                <?php echo L::aboutvinbird_title_1_description; ?>
               </div>
             </div>
            </div>
@@ -179,10 +172,9 @@ island named Can gio – the coastal area of 72,000 hectares with an abundant fo
             <div class="row">
                 <div class="col-md-10 ml-auto mr-auto">
                     <div class="brand">
-                        <h4>CORE VALUES</h4><!-- todo: change content -->
-                        <h1 class="text-center">Community first</h1>
-                        <h5>Our core values also become the reason of our hard work and determine the way of our company
-                                culture. As Vinbirdnest continues to evolve and grow, these four values remain constant.</h5>
+                      <h4><?php echo L::aboutvinbird_title_2_h4; ?></h4><!-- todo: change content -->
+                      <h1 class="text-center"><?php echo L::aboutvinbird_title_2_h1; ?></h1>
+                      <h5><?php echo L::aboutvinbird_title_2_description; ?></h5>
                     </div>
                 </div>
             </div>
@@ -198,8 +190,8 @@ island named Can gio – the coastal area of 72,000 hectares with an abundant fo
                         <img width="300" src="assets/img/intro/intro3.jpg">
                     </div>
                     <div class="col-md-8 ml-auto mr-auto">
-                        <h3>FAMILY</h3>
-                        We believe that edible bird’s nest not only have the economic value, but also the nutritional importance to improve human health and well-being. We are committed to bring the benefits of edible bird’s nest in each of our product line and services.
+                        <h3><?php echo L::aboutvinbird_value_1; ?></h3>
+                        <?php echo L::aboutvinbird_value_1_description; ?>
                     </div>
                 </div>
                 <div class="space-50"></div>
@@ -208,8 +200,8 @@ island named Can gio – the coastal area of 72,000 hectares with an abundant fo
                             <img width="300" src="assets/img/intro/intro4.jpg">
                         </div>
                         <div class="col-md-8 ml-auto mr-auto">
-                            <h3>FINEST QUALITY PRODUCT </h3>
-                            We do not compromise in quality. To ensure that, we develop a strict quality control procedure backed by Company Food Safety Policy. Our goal is to supply unique and innovative product by providing big capacity, fast-delivery and consistent standard to fulfill consumers’ satisfaction.
+                          <h3><?php echo L::aboutvinbird_value_2; ?></h3>
+                          <?php echo L::aboutvinbird_value_2_description; ?>
                         </div>
                     </div>
                 <div class="space-50"></div>
@@ -218,8 +210,8 @@ island named Can gio – the coastal area of 72,000 hectares with an abundant fo
                         <img width="300" height="200" src="assets/img/intro/intro5.jpg">
                     </div>
                     <div class="col-md-8 ml-auto mr-auto">
-                        <h3>NATURAL</h3>
-                        We respect the nature and set our production process to be as natural as possible, with the focus on improving bird’s population and environment sustainability. Our products do not use any food additives and no animals are harmed in the process.
+                      <h3><?php echo L::aboutvinbird_value_3; ?></h3>
+                      <?php echo L::aboutvinbird_value_3_description; ?>
                     </div>
                 </div>
                 <div class="space-50"></div>
@@ -228,8 +220,8 @@ island named Can gio – the coastal area of 72,000 hectares with an abundant fo
                         <img width="300" src="assets/img/intro/intro7.jpg">
                     </div>
                     <div class="col-md-8 ml-auto mr-auto">
-                        <h3>ECOLOGICALLY RESPONSIBLE</h3>
-                        We care about our planet and the environment. We embrace our commitment to preserve resources and protect the ecosystem. Our manufacturing processes do not pollute the environment and leave no excess materials.
+                      <h3><?php echo L::aboutvinbird_value_4; ?></h3>
+                      <?php echo L::aboutvinbird_value_4_description; ?>
                     </div>
                 </div>
             </div>
