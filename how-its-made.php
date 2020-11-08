@@ -4,29 +4,29 @@
       <div class="row">
         <div class="col-md-12 ml-auto mr-auto">
           <div class="brand">
-            <h1>Making Bird's Nest </h1>
-            <h2>We provide hygienic and safe products to consumer by setting the highest standard of manufacturing.</h2>
+            <h1><?php echo L::howitsmade_title; ?></h1>
+            <h2><?php echo L::howitsmade_subtitle; ?></h2>
             <ul style="list-style: none;">
               <li>
-                <a style="color: white;" href="#">01. NEST SORTING</a>
+                <a style="color: white;" href="#">01. <?php echo L::howitsmade_step_1_title; ?></a>
               </li>
               <li>
-                <a style="color: white;" href="#">02. CLEANSING</a>
+                <a style="color: white;" href="#">02. <?php echo L::howitsmade_step_2_title; ?></a>
               </li>
               <li>
-                <a style="color: white;" href="#">03. FEATHERS PICKING</a>
+                <a style="color: white;" href="#">03. <?php echo L::howitsmade_step_3_title; ?></a>
               </li>
               <li>
-                <a style="color: white;" href="#">04. FINISHING</a>
+                <a style="color: white;" href="#">04. <?php echo L::howitsmade_step_4_title; ?></a>
               </li>
               <li>
-                <a style="color: white;" href="#">05. GRADING</a>
+                <a style="color: white;" href="#">05. <?php echo L::howitsmade_step_5_title; ?></a>
               </li>
               <li>
-                <a style="color: white;" href="#">06. HEAT TREATMENT</a>
+                <a style="color: white;" href="#">06. <?php echo L::howitsmade_step_6_title; ?></a>
               </li>
               <li>
-                <a style="color: white;" href="#">07. PACKING</a>
+                <a style="color: white;" href="#">07. <?php echo L::howitsmade_step_7_title; ?></a>
               </li>
             </ul>
           </div>
@@ -39,8 +39,8 @@
     <div class="section section-basic">
       <div class="container">
         <div class="title ml-auto mr-auto">
-          <h2>Step 01</h2>
-          <h2>Nest sorting</h2>
+          <h2><?php echo L::howitsmade_step_1; ?></h2>
+          <h2><?php echo L::howitsmade_step_1_title; ?></h2>
         </div>
         <!--  buttons -->
         <div class="cd-section">
@@ -49,9 +49,9 @@
                 <img width="100%" src="./assets/img/how/1.jpg"/>
                 <div class="space-50"></div>
                 <ul>
-                  <li>We receive the raw bird's nest from Swiftlet farm.</li>
-                  <li>We do initial sorting based on its shape, feather, and color.</li>
-                  <li>We store the bird's nest in a cold room after being sorted.</li>
+                  <li><?php echo L::howitsmade_step_1_description_1; ?></li>
+                  <li><?php echo L::howitsmade_step_1_description_2; ?></li>
+                  <li><?php echo L::howitsmade_step_1_description_3; ?></li>
                 </ul>
               </div>
           </div>
@@ -62,8 +62,8 @@
     <div class="section section-basic">
       <div class="container">
         <div class="title ml-auto mr-auto">
-          <h2>Step 02</h2>
-          <h2>Cleansing</h2>
+          <h2><?php echo L::howitsmade_step_2; ?></h2>
+          <h2><?php echo L::howitsmade_step_2_title; ?></h2>
         </div>
         <div class="cd-section">
           <div class="row">
@@ -71,8 +71,8 @@
               <img width="100%" src="https://images.squarespace-cdn.com/content/v1/598005bc1e5b6c1c9fa13515/1517370308070-2XUUDTJRZSQWKEAIB412/ke17ZwdGBToddI8pDm48kB6N0s8PWtX2k_eW8krg04V7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URWK2DJDpV27WG7FD5VZsfFVodF6E_6KI51EW1dNf095hdyjf10zfCEVHp52s13p8g/DSCF4209.jpg?format=1500w"/>
               <div class="space-50"></div>
               <ul>
-                <li>We cleanse the bird's nest in flowing water to remove the physical dirt. </li>
-                <li>Cleansing also helps to soften the nest for the next process. </li>
+                <li><?php echo L::howitsmade_step_2_description_1; ?></li>
+                <li><?php echo L::howitsmade_step_2_description_1; ?></li>
               </ul>
             </div>
           </div>
@@ -84,8 +84,8 @@
     <div class="section section-basic">
       <div class="container">
         <div class="title ml-auto mr-auto">
-          <h2>Step 03</h2>
-          <h2>Feathers Picking
+          <h2><?php echo L::howitsmade_step_3; ?></h2>
+          <h2><?php echo L::howitsmade_step_3_title; ?>
             </h2>
         </div>
         <div class="cd-section">
@@ -94,8 +94,8 @@
               <img width="100%" src="./assets/img/how/3.jpg"/>
               <div class="space-50"></div>
               <ul>
-                <li>Our trained staff handpick the feather residue one-by-one to ensure no feather left behind. </li>
-                <li>This process requires patient and precision to get the best outcome. </li>
+                <li><?php echo L::howitsmade_step_3_description_1; ?></li>
+                <li><?php echo L::howitsmade_step_3_description_2; ?></li>
               </ul>
             </div>
           </div>
@@ -107,8 +107,8 @@
     <div class="section section-basic">
       <div class="container">
         <div class="title ml-auto mr-auto">
-          <h2>Step 04</h2>
-          <h2>Finishing
+          <h2><?php echo L::howitsmade_step_4; ?></h2>
+          <h2><?php echo L::howitsmade_step_4_title; ?>
             </h2>
         </div>
         <div class="cd-section">
@@ -116,7 +116,7 @@
             <div class="col-md-12 ml-auto mr-auto">
               <img width="100%" src="./assets/img/how/4.jpg"/>
               <div class="space-50"></div>
-              We refine the shape of bird's nest that may get bruised during the feathers picking process.
+              <?php echo L::howitsmade_step_4_description; ?>
             </div>
           </div>
         </div>
@@ -127,8 +127,8 @@
     <div class="section section-basic">
         <div class="container">
           <div class="title ml-auto mr-auto">
-            <h2>Step 05</h2>
-            <h2>Grading</h2>
+            <h2><?php echo L::howitsmade_step_5; ?></h2>
+            <h2><?php echo L::howitsmade_step_5_title; ?></h2>
           </div>
           <div class="cd-section">
             <div class="row">
@@ -136,8 +136,8 @@
                 <img width="100%" src="https://images.squarespace-cdn.com/content/v1/598005bc1e5b6c1c9fa13515/1515758122932-H67QMOL9A6SJLQBSDH5I/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/DSCF0712_GRADING.jpg?format=1500w"/>
                 <div class="space-50"></div>
                 <ul>
-                  <li>Our trained staff handpick the feather residue one-by-one to ensure no feather left behind. </li>
-                  <li>This process requires patient and precision to get the best outcome. </li>
+                  <li><?php echo L::howitsmade_step_5_description_1; ?></li>
+                  <li><?php echo L::howitsmade_step_5_description_2; ?></li>
                 </ul>
               </div>
             </div>
@@ -149,15 +149,15 @@
       <div class="section section-basic">
           <div class="container">
             <div class="title ml-auto mr-auto">
-              <h2>Step 06</h2>
-              <h2>Heat Treatment</h2>
+              <h2><?php echo L::howitsmade_step_6; ?></h2>
+              <h2><?php echo L::howitsmade_step_6_title; ?></h2>
             </div>
             <div class="cd-section">
               <div class="row">
                 <div class="col-md-12 ml-auto mr-auto">
                   <img width="100%" src="https://images.squarespace-cdn.com/content/v1/598005bc1e5b6c1c9fa13515/1515757346869-0FEBK061SNACLIXDSOVV/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/DSCF0966_STEAM.jpg?format=1500w"/>
                   <div class="space-50"></div>
-                  The nests which are already graded are steamed in this room. The minimal core of the nests should be 70 degrees Celcius for at least 3,5 seconds. The heat treatment will eliminate bacteria, germs, and avian influenza virus.
+                  <?php echo L::howitsmade_step_6_description; ?>
                 </div>
               </div>
             </div>
@@ -168,15 +168,15 @@
         <div class="section section-basic">
             <div class="container">
               <div class="title ml-auto mr-auto">
-                <h2>Step 07</h2>
-                <h2>Packing</h2>
+                <h2><?php echo L::howitsmade_step_7; ?></h2>
+                <h2><?php echo L::howitsmade_step_7_title; ?></h2>
               </div>
               <div class="cd-section">
                 <div class="row">
                   <div class="col-md-12 ml-auto mr-auto">
                     <img width="100%" src="./assets/img/how/7.jpg"/>
                     <div class="space-50"></div>
-                    We cover the bird’s nest using a vacuum packaging that guarantee its hygiene.
+                    <?php echo L::howitsmade_step_7_description; ?>
                   </div>
                 </div>
               </div>
