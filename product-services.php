@@ -4,10 +4,10 @@
       <div class="row">
         <div class="col-md-12 ml-auto mr-auto">
           <div class="brand">
-            <h1>Products & Services</h1>
-            <h4>EDIBLE BIRD'S NEST</h4>
-            <h3>Edible bird’s nest is a nutritional food that is rich in protein and mineral, loaded with amino acids essential and non-essential. A perfect ingredient for cosmetics and health.</h3>
-            <h5>Our product line is categorized based on visual/physical appearance including shapes, color, and size. Here's the list of our product based on the specification. </h5>
+            <h1><?php echo L::product_services_title_h1; ?></h1>
+            <h4><?php echo L::product_services_title_h4; ?></h4>
+            <h3><?php echo L::product_services_title_h3; ?></h3>
+            <h5><?php echo L::product_services_title_h5; ?></h5>
           </div>
         </div>
       </div>
@@ -17,27 +17,29 @@
     <div class="section section-basic">
       <div class="container">
         <div class="title">
-          <h1>Our cleaned swallow nest is guaranteed:</h1>
+          <h1><?php echo L::product_services_guaranteed_title; ?></h1>
         </div>
         <!--  buttons -->
         <div class="cd-section">
           <div class="row">
             <div class="col-md-6 ml-auto mr-auto">
-                <h3>NO DETERGENT</h3>
-                During the cleaning process we do not use any cleaning or cleaning chemicals.  We use saddle washing water which is certified by Pasteur Institute (because chlorine in tap water can degrade bird's nest).  Because it is difficult and time-consuming to clean the bird's nest by hand, some establishments can use the cleaning agent, although it is not toxic, but it can reduce the nutrition of bird's nest.             </div>
+              <h3><?php echo L::product_services_guaranteed_1_title; ?></h3>
+              <?php echo L::product_services_guaranteed_1_description; ?>
+            </div>
             <div class="col-md-6 ml-auto mr-auto">
-                <h3>NO STAINING</h3>
-                Natural nests can have pure white, ivory, orange, yellow, brown, red.  .  .  bleaching or staining according to consumer tastes may impair the nutritional value of the nest.  
+              <h3><?php echo L::product_services_guaranteed_2_title; ?></h3>
+              <?php echo L::product_services_guaranteed_2_description; ?>
             </div>
           </div>
+
           <div class="row">
             <div class="col-md-6 ml-auto mr-auto">
-                <h3>NO ADDITIVES</h3>
-                Natural oats are lightweight, so people can use fiber or other foods to fill in to increase weight, some consumers prefer crispy, tough oats.  .  .  You can use borax.  All of these substances degenerate the swallow's nest.  We absolutely do not use any additives. 
+              <h3><?php echo L::product_services_guaranteed_3_title; ?></h3>
+              <?php echo L::product_services_guaranteed_3_description; ?>
             </div>
             <div class="col-md-6 ml-auto mr-auto">
-                <h3>NO PRESERVATIVES</h3>
-                 Pure bird's nest can last for a long time in the natural environment, but if there are fillers or additives to increase weight, color, smell, you must use more preservatives, VinBirdNest  Absolutely no preservatives used.
+              <h3><?php echo L::product_services_guaranteed_4_title; ?></h3>
+              <?php echo L::product_services_guaranteed_4_description; ?>
             </div>
           </div>
         </div>
