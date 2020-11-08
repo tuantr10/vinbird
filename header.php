@@ -17,6 +17,8 @@
   $i18n = new i18n('lang/lang_{LANGUAGE}.ini', 'langcache/', 'en');
   $i18n->init();
   $_isVietnamese = isset($_GET["lang"]) && $_GET["lang"] === "vi";
+  $currentPath = explode(".", basename($_SERVER['PHP_SELF']))[0];
+  if ($currentPath === "index") $currentPath = "";
 ?>
 
 <!DOCTYPE html>
@@ -87,9 +89,9 @@
 
           <li class="nav-item">
             <a class="nav-link" href="<?php if ($_isVietnamese) {
-              echo "./";
+              echo "./".$currentPath;
             } else {
-              echo "./?lang=vi"; 
+              echo "./".$currentPath."?lang=vi";
             }?>" onclick="scrollToDownload()">
               <i class="material-icons">translate</i>
               <?php
