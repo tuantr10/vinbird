@@ -29,6 +29,7 @@
   <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="./assets/img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="Description" CONTENT="VinBirdnest is one of the companies belongs to our family farm with 5 birdhouses built from 2009. All our bird houses located in a green island named Can gio – the coastal area of 72,000 hectares with an abundant food source for birds.">
   <title>
     VinBirdnest
   </title>
