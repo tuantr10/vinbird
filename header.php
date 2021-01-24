@@ -88,7 +88,7 @@
             </a>
           </li>
 
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="<?php if ($_isVietnamese) {
               echo "./".$currentPath;
             } else {
@@ -103,7 +103,7 @@
                 }
               ?>
             </a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="mailto:vinbirdnest@gmail.com "target="_blank" data-original-title="Email us">
               <i class="fa fa-envelope"></i>
